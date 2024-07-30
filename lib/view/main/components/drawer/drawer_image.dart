@@ -28,7 +28,7 @@ class DrawerImage extends StatelessWidget {
           borderRadius: BorderRadius.circular(50),
           child: Transform.rotate(
               angle: 0.0,
-              child: Image.asset('assets/images/profile.jpg',fit: BoxFit.cover,))),
+              child: Image.asset('assets/images/profile.jpeg',fit: BoxFit.cover,))),
     );
   }
 }
